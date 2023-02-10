@@ -1,0 +1,28 @@
+/* 
+Crea un nuevo archivo JS que contenga una lista con los siguientes elementos:
+
+- Tu nombre (string)
+
+- Tu edad (number)
+
+- ¿Eres desarrollador? (boolean)
+
+- Tu fecha de nacimiento (Date)
+
+- Tu libro favorito (Objeto con propiedades: titulo, autor, fecha, url)
+*/
+
+const lista = [
+    "Nahuel",
+    20,
+    false,
+    fecha = new Date("october 16 2002"),
+    libro = {
+        titulo: "Pandenomics",
+        autor: "Javier Milei",
+        fecha: "30/09/2020",
+        url: "https://www.galernaweb.com/productos/pandenomics-javier-milei/"
+    }
+]
+
+console.log(lista);
